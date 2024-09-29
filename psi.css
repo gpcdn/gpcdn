@@ -61,3 +61,23 @@
               font-weight: bold;
               cursor: pointer;
           }
+p.obratipozornost   {
+            width: 600px;
+            text-indent: -8px;
+            padding: 6px 10px 6px 8px;
+            background-color: var(--GrayExtraLight);
+}
+p.obratipozornost::before   {
+            content: 'VAŽNO!';
+            font-family: var(--FontSansSerif);
+            font-weight: bold;
+            font-style: italic;
+            font-size: 12pt;
+            line-height: 12pt;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--YellowLight);
+            background-color: var(--PurpleDark);
+            padding: 8px 6px 1px 6px;
+            margin-right: 6px;
+}
