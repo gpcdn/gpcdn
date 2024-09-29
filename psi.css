@@ -48,8 +48,8 @@
               height: 100%;
           }
           #modalImage {
-              max-width: 99%;
-              max-height: 99%;
+              max-width: 90%;
+              max-height: 90%;
               object-fit: contain;
           }
           .close {
