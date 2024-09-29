@@ -1,4 +1,4 @@
-            .photo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+.photo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
             .photo-item { border: 1px solid #ddd; padding: 10px; }
             .photo-item img { width: 100%; height: auto; cursor: pointer; }
             .photo-item input[type="text"] { width: 100%; margin-top: 10px; }
@@ -28,3 +28,36 @@
             .photo-item img.loaded {
               opacity: 1;
             }
+            .modal {
+              display: none;
+              position: fixed;
+              z-index: 1;
+              left: 0;
+              top: 0;
+              width: 100%;
+              height: 100%;
+              overflow: auto;
+              background-color: rgba(0,0,0,0.9);
+          }
+          .modal-content {
+              position: relative;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 100%;
+              height: 100%;
+          }
+          #modalImage {
+              max-width: 99%;
+              max-height: 99%;
+              object-fit: contain;
+          }
+          .close {
+              position: absolute;
+              top: 15px;
+              right: 35px;
+              color: #f1f1f1;
+              font-size: 40px;
+              font-weight: bold;
+              cursor: pointer;
+          }
