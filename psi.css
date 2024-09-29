@@ -65,19 +65,19 @@
             width: 600px;
             text-indent: -8px;
             padding: 6px 10px 6px 8px;
-            background-color: var(--GrayExtraLight);
+            background-color: GrayExtraLight;
 }
 .obratipozornost::before   {
             content: 'VAŽNO!';
-            font-family: var(--FontSansSerif);
+            font-family: vFontSansSerif;
             font-weight: bold;
             font-style: italic;
             font-size: 12pt;
             line-height: 12pt;
             text-transform: uppercase;
             letter-spacing: 2px;
-            color: var(--YellowLight);
-            background-color: var(--PurpleDark);
+            color: YellowLight;
+            background-color: PurpleDark;
             padding: 8px 6px 1px 6px;
             margin-right: 6px;
 }
